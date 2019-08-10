@@ -1,0 +1,14 @@
+<div class="container-fluid bg-blue">
+  <nav class="pt-3 d-none d-md-block">
+    <ul
+      class="d-flex justify-content-center text-center align-items-center text-bold
+    "
+    >
+      <li><a {% if page.url == site.baseurl %}class="active"{% endif %} href="">Home</a></li>
+      <li><a {% if page.url == '/events' %}class="active"{% endif %} href="events">Events</a></li>
+      <li><a href="">{% include triton-fest-logo.html %}</a></li>
+      <li><a {% if page.url == '/faq' %}class="active"{% endif %} href="faq">FAQ</a></li>
+      <li><a href="" class="btn btn-pink">Register</a></li>
+    </ul>
+  </nav>
+</div>

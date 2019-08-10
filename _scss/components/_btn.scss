@@ -1,0 +1,10 @@
+.btn {
+  color: #fff;
+  padding: 0.6rem 1.6rem 0.7rem;
+  border-radius: 2rem;
+  display: inline-block;
+  &-pink {
+    background-color: $pink;
+    box-shadow: 0 0 1rem 0 $pink;
+  }
+}

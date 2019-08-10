@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Futura PT";
+  src: url("../../assets/fonts/FuturaPT-Book.woff2") format("woff2"),
+    url("../../assets/fonts/FuturaPT-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../../assets/fonts/FuturaPT-Medium.woff2") format("woff2"),
+    url("../../assets/fonts/FuturaPT-Medium.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("/assets/fonts/CenturyGothic-Bold.eot");
+  src: url("/assets/fonts/CenturyGothic-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/CenturyGothic-Bold.woff2") format("woff2"),
+    url("/assets/fonts/CenturyGothic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
